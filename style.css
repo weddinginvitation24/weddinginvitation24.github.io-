@@ -1,0 +1,427 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  /* background-color: ; */
+  height: 50px;
+}
+.navbar {
+  display: flex;
+  position: fixed;
+}
+.navbar .logo {
+  color: gray;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.link {
+  margin-left: auto;
+  margin-right: 20px;
+  padding: 5px;
+}
+.link a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: small;
+}
+i {
+  color: #bac864;
+  padding: 3px;
+}
+/* jumbotron */
+.jumbotron {
+  background-image: url(./images/cover.png);
+  background-size: cover;
+  height: 640px;
+}
+/* .jumbotron::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgb(194, 188, 188), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+} */
+/* .jumbotron .container {
+  z-index: 1;
+  position: relative;
+} */
+.jumbotron .display-4 {
+  text-align: center;
+  margin-top: 100px;
+  font-family: JonahAFYL Light;
+  src: url(JonahAFYL-Light.ttf);
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.jumbotron .display-31 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: JonahAFYL Light;
+  font-weight: bold;
+  src: url(JonahAFYL-Light.ttf);
+  font-size: 35px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.jumbotron .display-32 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Dancing Script;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* counter */
+h4 {
+  font-size: 30px;
+  font-family: JonahAFYL Light;
+  src: url(JonahAFYL-Light.ttf);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+.waktu .h2s {
+  font-family: JonahAFYL Light;
+  src: url(JonahAFYL-Light.ttf);
+  font-size: 30px;
+}
+.section-counter {
+  background-color: white;
+  color: black;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -50px;
+}
+
+.waktu .counter {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: JonahAFYL Light;
+  font-weight: bold;
+  src: url(JonahAFYL-Light.ttf);
+  color: black;
+}
+
+.counter-title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Klee One', cursive;
+}
+/* akhir counter */
+/* waktu */
+.waktu {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -60px;
+  margin-bottom: 20px;
+}
+/* akhir waktu */
+.item {
+  transition: 0.5s ease-in-out;
+}
+.item:hover {
+  filter: brightness(70%);
+}
+/* pembukaan dan kisah */
+#pembukaan {
+  font-family: JonahAFYL Light;
+  font-weight: normal;
+}
+#kisah {
+  font-family: JonahAFYL Light;
+  font-weight: normal;
+}
+#kisah h2 {
+  font-weight: bolder;
+}
+/*--------------------------------------------------------------
+# Mempelai Section
+--------------------------------------------------------------*/
+
+#mempelainya {
+  background-color: #f9f9f2;
+  color: black;
+}
+
+#mempelainya .container {
+  font-family: JonahAFYL Light;
+  src: url(JonahAFYL-Light.ttf);
+  font-size: 30px;
+  justify-content: center;
+}
+#mempelainya .container .dan {
+  font-family: JonahAFYL Light;
+  font-weight: bold;
+  src: url(JonahAFYL-Light.ttf);
+  /* font-family: 'Dancing Script', cursive;
+  font-weight: bold; */
+  font-size: 80px;
+}
+
+#mempelainya .container .caption {
+  font-family: JonahAFYL Light;
+  font-weight: bold;
+  src: url(JonahAFYL-Light.ttf);
+
+  font-size: 20px;
+  font-weight: normal;
+}
+#mempelainya h2 {
+  font-size: 70px;
+}
+
+#tamu {
+  background-color: #f9f9f2;
+}
+
+#akad h2 {
+  font-family: JonahAFYL Light;
+  font-weight: bold;
+  src: url(JonahAFYL-Light.ttf);
+  font-size: 70px;
+}
+#akad h3 {
+  font-family: JonahAFYL Light;
+  font-weight: bold;
+  src: url(JonahAFYL-Light.ttf);
+  font-size: 40px;
+}
+#akad p {
+  font-family: JonahAFYL Light;
+  font-weight: bold;
+  src: url(JonahAFYL-Light.ttf);
+
+  font-size: 40px;
+  font-weight: normal;
+}
+.galeri h1 {
+  font-family: JonahAFYL Light;
+  font-weight: bold;
+  src: url(JonahAFYL-Light.ttf);
+  font-size: 70px;
+}
+#tamu {
+  font-family: JonahAFYL Light;
+  font-weight: bold;
+  src: url(JonahAFYL-Light.ttf);
+}
+
+/*** music box ***/
+.music-box {
+  position: fixed;
+  width: 230px;
+  height: 150px;
+  z-index: 120;
+  bottom: 30px;
+  right: 30px;
+}
+
+@media (max-width: 991px) {
+  .music-box {
+    width: 50px;
+    height: 150px;
+    right: auto;
+    right: 10px;
+    top: 10px;
+  }
+}
+
+.music-box .music-holder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: -30px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.music-box .music-holder iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.music-box button {
+  background: rgba(248, 246, 246, 0.85);
+  width: 50px;
+  height: 50px;
+  line-height: 37px;
+  font-size: 18px;
+  font-size: 1rem;
+  color: #5a716b;
+  border: 1px solid #e6e6e6;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.music-box button i {
+  font-size: 20px;
+}
+
+@media (max-width: 991px) {
+  .music-box button {
+    right: 0;
+    left: auto;
+  }
+}
+
+.music-box .toggle-music-box {
+  top: -50px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.music {
+  padding: 0;
+  background: none !important;
+  border: none !important;
+  position: relative;
+  top: 100px;
+  left: 180px;
+}
+
+.music:focus {
+  outline: none;
+}
+
+.fa-stack {
+  right: 12px;
+  top: -65px;
+  width: 0;
+  height: 0;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > * {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+/* desktop version */
+@media (min-width: 992px) {
+  .jumbotron {
+    background-image: url(./images/cover.png);
+    background-size: cover;
+    height: 640px;
+    margin-top: -75px;
+  }
+}
+
+/* mobile version */
+@media (max-width: 767.98px) {
+  nav {
+    position: fixed;
+    bottom: 0;
+  }
+  .navbar {
+    padding: 10px 10px;
+    display: flex;
+  }
+  .logo {
+    display: none;
+  }
+  .link {
+    margin: auto;
+  }
+  link a {
+    font-size: 5px;
+  }
+  .jumbotron .display-4 {
+    text-align: center;
+    margin-top: 0;
+    font-family: Montserrat;
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+  .jumbotron .display-31 {
+    text-align: center;
+    margin-top: 40px;
+    font-family: JonahAFYL Light;
+    font-weight: bold;
+    src: url(JonahAFYL-Light.ttf);
+    font-size: 45px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .jumbotron .display-32 {
+    text-align: center;
+    margin-top: 150px;
+    font-family: Dancing Script;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .waktu {
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    border-radius: none;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .waktu .counter {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Klee One', cursive;
+    color: black;
+  }
+  #mempelainya .container .dan {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 0;
+  }
+  #akad h2 {
+    font-family: JonahAFYL Light;
+    font-weight: bold;
+    src: url(JonahAFYL-Light.ttf);
+    font-size: 50px;
+  }
+  #akad h3 {
+    font-family: JonahAFYL Light;
+    font-weight: bold;
+    src: url(JonahAFYL-Light.ttf);
+    font-size: 40px;
+  }
+  #akad p {
+    font-family: JonahAFYL Light;
+    font-weight: normal;
+    src: url(JonahAFYL-Light.ttf);
+
+    font-size: 20px;
+  }
+  #mempelainya h2 {
+    font-size: 50px;
+  }
+}
