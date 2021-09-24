@@ -135,10 +135,12 @@ h4 {
 #pembukaan {
   font-family: JonahAFYL Light;
   font-weight: normal;
+  background-color: #f9f9f2;
 }
 #kisah {
   font-family: JonahAFYL Light;
   font-weight: normal;
+  /* background-color: #f9f9f2; */
 }
 #kisah h2 {
   font-weight: bolder;
@@ -180,7 +182,12 @@ h4 {
 }
 
 #tamu {
-  background-color: #f9f9f2;
+  background-image: url(./images/cover.png);
+  background-size: cover;
+}
+#akad {
+  background-image: url(./images/cover.png);
+  background-size: cover;
 }
 
 #akad h2 {
@@ -213,6 +220,10 @@ h4 {
   font-family: JonahAFYL Light;
   font-weight: bold;
   src: url(JonahAFYL-Light.ttf);
+  margin-top: 20px;
+}
+.tehagi {
+  width: 250px;
 }
 
 /*** music box ***/
@@ -338,6 +349,10 @@ h4 {
     margin-top: -75px;
   }
 }
+.icon img {
+  width: 100px;
+  opacity: 0.9;
+}
 
 /* mobile version */
 @media (max-width: 767.98px) {
@@ -423,5 +438,12 @@ h4 {
   }
   #mempelainya h2 {
     font-size: 50px;
+  }
+  .tehagi {
+    width: 200px;
+  }
+  .icon img {
+    width: 150px;
+    opacity: 0.9;
   }
 }
