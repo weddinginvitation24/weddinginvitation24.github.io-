@@ -55,19 +55,18 @@ i {
 .jumbotron .display-4 {
   text-align: center;
   margin-top: 100px;
-  font-family: JonahAFYL Light;
-  src: url(JonahAFYL-Light.ttf);
+  font-family: Montserrat;
+  color: #3d1f14;
   font-size: 35px;
   text-transform: uppercase;
 }
 .jumbotron .display-31 {
   text-align: center;
   margin-top: 40px;
-  font-family: JonahAFYL Light;
+  font-family: 'Ephesis', cursive;
   font-weight: bold;
-  src: url(JonahAFYL-Light.ttf);
   font-size: 35px;
-  text-transform: uppercase;
+
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 .jumbotron .display-32 {
@@ -82,16 +81,16 @@ i {
 /* counter */
 h4 {
   font-size: 30px;
-  font-family: JonahAFYL Light;
-  src: url(JonahAFYL-Light.ttf);
+  font-family: Montserrat;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bolder;
+  text-shadow: #aca4a4;
 }
 .waktu .h2s {
-  font-family: JonahAFYL Light;
-  src: url(JonahAFYL-Light.ttf);
-  font-size: 30px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 27px;
 }
 .section-counter {
   background-color: white;
@@ -133,18 +132,29 @@ h4 {
 }
 /* pembukaan dan kisah */
 #pembukaan {
-  font-family: JonahAFYL Light;
+  font-family: Montserrat;
   font-weight: normal;
-  background-color: #f9f9f2;
+  background-color: #f2f9f2;
+}
+#pembukaan h2 {
+  text-transform: uppercase;
+  color: #3d1f14;
+  font-weight: bolder;
 }
 #kisah {
-  font-family: JonahAFYL Light;
-  font-weight: normal;
+  font-family: Montserrat;
   /* background-color: #f9f9f2; */
 }
 #kisah h2 {
+  color: #3d1f14;
   font-weight: bolder;
 }
+#kisah h5 {
+  color: #bac864;
+  font-weight: bolder;
+  text-shadow: #a39d9d;
+}
+
 /*--------------------------------------------------------------
 # Mempelai Section
 --------------------------------------------------------------*/
@@ -155,35 +165,34 @@ h4 {
 }
 
 #mempelainya .container {
-  font-family: JonahAFYL Light;
-  src: url(JonahAFYL-Light.ttf);
+  font-family: 'Ephesis', cursive;
   font-size: 30px;
   justify-content: center;
 }
 #mempelainya .container .dan {
-  font-family: JonahAFYL Light;
+  font-family: 'Ephesis', cursive;
   font-weight: bold;
-  src: url(JonahAFYL-Light.ttf);
   /* font-family: 'Dancing Script', cursive;
   font-weight: bold; */
   font-size: 80px;
 }
 
 #mempelainya .container .caption {
-  font-family: JonahAFYL Light;
-  font-weight: bold;
-  src: url(JonahAFYL-Light.ttf);
+  font-family: 'Architects Daughter', cursive;
 
   font-size: 20px;
   font-weight: normal;
 }
 #mempelainya h2 {
-  font-size: 70px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 50px;
 }
 
 #tamu {
   background-image: url(./images/cover.png);
   background-size: cover;
+  font-family: Montserrat;
 }
 #akad {
   background-image: url(./images/cover.png);
@@ -191,10 +200,13 @@ h4 {
 }
 
 #akad h2 {
-  font-family: JonahAFYL Light;
+  font-family: Montserrat;
+  text-transform: uppercase;
   font-weight: bold;
+  color: #3d1f14;
+  font-weight: bolder;
   src: url(JonahAFYL-Light.ttf);
-  font-size: 70px;
+  font-size: 50px;
 }
 #akad h3 {
   font-family: JonahAFYL Light;
@@ -217,9 +229,8 @@ h4 {
   font-size: 70px;
 }
 #tamu {
-  font-family: JonahAFYL Light;
+  font-family: Montserrat;
   font-weight: bold;
-  src: url(JonahAFYL-Light.ttf);
   margin-top: 20px;
 }
 .tehagi {
@@ -383,11 +394,10 @@ h4 {
   .jumbotron .display-31 {
     text-align: center;
     margin-top: 40px;
-    font-family: JonahAFYL Light;
+    font-family: 'Ephesis', cursive;
     font-weight: bold;
-    src: url(JonahAFYL-Light.ttf);
     font-size: 45px;
-    text-transform: uppercase;
+
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   }
   .jumbotron .display-32 {
@@ -404,6 +414,7 @@ h4 {
     border-radius: none;
     margin-top: 0;
     margin-bottom: 0;
+    text-transform: uppercase;
   }
   .waktu .counter {
     font-size: 20px;
@@ -427,7 +438,7 @@ h4 {
     font-family: JonahAFYL Light;
     font-weight: bold;
     src: url(JonahAFYL-Light.ttf);
-    font-size: 40px;
+    font-size: 30px;
   }
   #akad p {
     font-family: JonahAFYL Light;
