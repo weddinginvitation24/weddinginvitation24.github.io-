@@ -64,7 +64,6 @@ i {
   text-align: center;
   margin-top: 40px;
   font-family: 'Ephesis', cursive;
-  font-weight: bold;
   font-size: 35px;
 
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -80,12 +79,10 @@ i {
 
 /* counter */
 h4 {
-  font-size: 30px;
+  font-size: 25px;
   font-family: Montserrat;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: bolder;
-  text-shadow: #aca4a4;
 }
 .waktu .h2s {
   font-family: Montserrat;
@@ -147,7 +144,8 @@ h4 {
 }
 #kisah h2 {
   color: #3d1f14;
-  font-weight: bolder;
+
+  font-size: 35px;
 }
 #kisah h5 {
   color: #bac864;
@@ -161,7 +159,7 @@ h4 {
 
 #mempelainya {
   background-color: #f9f9f2;
-  color: black;
+  color: #3d1f14;
 }
 
 #mempelainya .container {
@@ -178,7 +176,7 @@ h4 {
 }
 
 #mempelainya .container .caption {
-  font-family: 'Architects Daughter', cursive;
+  font-family: Montserrat;
 
   font-size: 20px;
   font-weight: normal;
@@ -186,52 +184,54 @@ h4 {
 #mempelainya h2 {
   font-family: Montserrat;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 #tamu {
   background-image: url(./images/cover.png);
   background-size: cover;
   font-family: Montserrat;
+  padding-top: 60px;
 }
 #akad {
   background-image: url(./images/cover.png);
   background-size: cover;
+  padding-bottom: 60px;
 }
 
 #akad h2 {
   font-family: Montserrat;
   text-transform: uppercase;
-  font-weight: bold;
+
   color: #3d1f14;
-  font-weight: bolder;
-  src: url(JonahAFYL-Light.ttf);
-  font-size: 50px;
+  font-size: 35px;
 }
 #akad h3 {
-  font-family: JonahAFYL Light;
-  font-weight: bold;
-  src: url(JonahAFYL-Light.ttf);
-  font-size: 40px;
+  font-family: Montserrat;
+
+  font-size: 25px;
 }
 #akad p {
-  font-family: JonahAFYL Light;
-  font-weight: bold;
-  src: url(JonahAFYL-Light.ttf);
+  font-family: Montserrat;
 
-  font-size: 40px;
+  font-size: 20px;
   font-weight: normal;
 }
+.btn-maps {
+  color: #ffffff;
+}
 .galeri h1 {
-  font-family: JonahAFYL Light;
-  font-weight: bold;
-  src: url(JonahAFYL-Light.ttf);
-  font-size: 70px;
+  font-family: Montserrat;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #3d1f14;
 }
 #tamu {
   font-family: Montserrat;
   font-weight: bold;
   margin-top: 20px;
+  text-transform: uppercase;
+  color: #3d1f14;
 }
 .tehagi {
   width: 250px;
@@ -395,7 +395,6 @@ h4 {
     text-align: center;
     margin-top: 40px;
     font-family: 'Ephesis', cursive;
-    font-weight: bold;
     font-size: 45px;
 
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
@@ -429,26 +428,22 @@ h4 {
     margin-top: 0;
   }
   #akad h2 {
-    font-family: JonahAFYL Light;
-    font-weight: bold;
-    src: url(JonahAFYL-Light.ttf);
-    font-size: 50px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: #3d1f14;
+    font-size: 35px;
   }
   #akad h3 {
-    font-family: JonahAFYL Light;
-    font-weight: bold;
-    src: url(JonahAFYL-Light.ttf);
+    font-family: Montserrat;
     font-size: 30px;
   }
   #akad p {
-    font-family: JonahAFYL Light;
-    font-weight: normal;
-    src: url(JonahAFYL-Light.ttf);
+    font-family: Montserrat;
 
     font-size: 20px;
   }
   #mempelainya h2 {
-    font-size: 50px;
+    font-size: 35px;
   }
   .tehagi {
     width: 200px;
