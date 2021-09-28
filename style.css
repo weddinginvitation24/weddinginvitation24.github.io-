@@ -194,9 +194,9 @@ h4 {
   padding-top: 60px;
 }
 #akad {
-  background-image: url(./images/cover.png);
-  background-size: cover;
-  padding-bottom: 60px;
+  /* background-image: url(./images/cover.png);
+  background-size: cover; */
+  padding-bottom: 30px;
 }
 
 #akad h2 {
@@ -222,6 +222,7 @@ h4 {
 }
 .prokes {
   background-color: #f2f9f2;
+  padding-top: 30px;
 }
 
 .galeri h1 {
@@ -233,7 +234,6 @@ h4 {
 #tamu {
   font-family: Montserrat;
   font-weight: bold;
-  margin-top: 20px;
   text-transform: uppercase;
   color: #3d1f14;
 }
@@ -431,6 +431,23 @@ h4 {
     font-size: 80px;
     margin-top: 0;
   }
+  #pembukaan img {
+    box-shadow: none;
+    border-radius: none;
+    margin-top: 20px;
+  }
+  #pembukaan p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #kisah {
+    margin-top: 25px;
+    box-shadow: none;
+    border-radius: none;
+  }
+  #akad {
+    background-color: #ffffff;
+  }
   #akad h2 {
     font-family: Montserrat;
     text-transform: uppercase;
@@ -446,14 +463,23 @@ h4 {
 
     font-size: 16px;
   }
+
   #mempelainya h2 {
     font-size: 35px;
   }
   .tehagi {
     width: 200px;
+    margin-top: 26px;
+  }
+  #tamu h2 {
+    margin-top: -20px;
   }
   .icon img {
     width: 150px;
     opacity: 0.9;
+  }
+  .prokes {
+    margin-top: -25px;
+    padding-top: 40px;
   }
 }
