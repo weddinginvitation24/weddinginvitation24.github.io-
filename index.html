@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="style.css" />
     <!-- link css light box -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
-
+<!-- link aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title> </title>
   </head>
   <body id="home">
@@ -55,8 +56,8 @@
     <!-- akhir navbar -->
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h2 class="display-4">Wedding Invitation</h2>
+      <div class="container" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150" >
+        <h2 class="display-4" >Wedding Invitation</h2>
         <h1 class="display-31"><span>Agita</span></h1>
         <h1 class="display-31">&</h1>
         <h1 class="display-31"><span>Kanda</span></h1>
@@ -70,7 +71,7 @@
         <div class="col-lg-10 waktu">
           <div class="row">
             <div class="col text-center">
-              <h2 data-aos="fade-up" data-aos-duration="3000" class="h2s">The Wedding Begins In</h2>
+              <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150" class="h2s">The Wedding Begins In</h2>
             </div>
           </div>
           <div class="row" data-aos="fade-up" data-aos-duration="3000">
@@ -97,7 +98,7 @@
     <!-- akhir counter -->
     <!-- kata kata undangan -->
     <section id="pembukaan">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150">
         <div class="row justify-content-center text-center">
           <div class="col-lg">
             <img src="./images/bunga.png" class="tehagi" alt="" />
@@ -110,13 +111,13 @@
     <!-- akhir kata kata undangan -->
     <!-- kisah -->
     <section id="kisah">
-      <div class="container">
-        <div class="row text-center">
+      <div class="container" >
+        <div class="row text-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150">
           <div class="col">
             <h2>KISAH</h2>
           </div>
         </div>
-        <div class="row icon justify-content-center text-center">
+        <div class="row icon justify-content-center text-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150">
           <div class="col-lg-4">
             <img src="./images/perkenalan.jpg" class="img-fluid" />
             <h5 class="text-center">2018 - Pertama kenal</h5>
@@ -138,7 +139,7 @@
     <!-- akhir kisah -->
     <!-- mempelainya -->
     <section id="mempelainya">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150">
         <div class="row text-center justify-content-center">
           <div class="col-lg">
             <img src="./images/bunga.png" class="tehagi" alt="" />
@@ -177,7 +178,7 @@
     <!-- akhir mempelainya -->
     <!-- waktu akad dan resepsi -->
     <section id="akad">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150">
         <div class="row text-center">
           <div class="col">
             <img src="./images/bunga.png" class="tehagi" alt="" />
@@ -195,7 +196,7 @@
     <!-- akhir akad dan resepsi -->
     <!-- reservasi tamu -->
     <section id="tamu">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150">
         <div class="row text-center">
           <div class="col">
             <h2>Buku Tamu</h2>
@@ -242,7 +243,7 @@
     <!-- akhir tamu -->
     <!-- prokes -->
     <section id="kisah">
-      <div class="container prokes">
+      <div class="container prokes" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150">
         <div class="row text-center">
           <div class="col">
             <h2>PROTOKOL KESEHATAN</h2>
@@ -270,7 +271,7 @@
     </section>
     <!-- Galeri -->
     <div class="galeri" id="galeri">
-      <div class="container-fluid text-center">
+      <div class="container-fluid text-center" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="150">
         <h1>Galeri</h1>
         <div class="row md-4">
           <div class="item col-sm-6 col-md-4 mb-3">
@@ -328,6 +329,10 @@
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>   
+      AOS.init(); 
+ </script>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
